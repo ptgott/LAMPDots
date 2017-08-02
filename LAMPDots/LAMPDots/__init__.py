@@ -3,6 +3,8 @@ from flask import request
 from flask import jsonify
 from flask import json
 from flask_sqlalchemy import SQLAlchemy
+import re
+
 app = Flask(__name__)
 app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql://vagrant:11111@localhost:3306/lampdots'
 db = SQLAlchemy(app)

@@ -2,3 +2,4 @@
 .DS_Store
 **/.DS_Store
 virtualEnvironment/
+apache2_error.log
